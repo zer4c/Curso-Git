@@ -46,28 +46,49 @@ Se puede crear la rama de la siguiente manera:
 `git branch NombreRama`
 
 Una buena practica es poner de nombre la funcion que se esta desarrollando.
+
+Una rama tambien sirve para dividir funciones de trabajo en un desarrollo grupal.
+## conflictos
+
+
 ## Comandos
 ### git branch
 sirve para listar las ramas:
 
 `git branch`
-### git switch
-sirve para cambiar de rama: 
 
-`git swtich Nombrerama`
+tambien sirve para crear ramas y solo tiene una modificacion:
+
+`git branch Nombrerama`
+
+### git switch
+sirve para cambiar de rama, aparte si añadimos -c podemos crear y movernos a la rama: 
+
+`git switch Nombrerama`
+`git switch -c Nombrerama2`
 
 ### git checkout
-Sirve para cambiar de rama:
-crear -b homepage
+Sirve tambien para cambiar de rama pero se usa mas el switch desde 2019:
+
 `git checkout`
+
 ### git merge
+Este comando sirve para fusionar dos ramas, o la rama secundaria al MAIN, pero OJO tenemos una condicion, tenemos que estar "parados" en la rama que queramos que se actualice con la otra.
+
+`git merge RamaX`
+
 ### git branch -d o --delete
+Nos sirve para eliminar una rama cualquiera.
+
+`git branch -d NombreRama`
+`git branch --delete NombreRama`
+
 ### git merge header --no--ff
-sirve para verlo como arbolito y te da un mensaje
+sirve para verlo como arbolito y te da un mensaje en consola.
+
 ### git log --graph --oneline
-## fusionar ramas
-## conflictos
-investigar si tienen los mismos ID por la creacion de ramas
+muestra un historial de commits de manera gráfica y compacta. Cada commit se representa en una sola línea, mostrando únicamente su identificador único abreviado. El --graph agrega una representación visual de las ramas y fusiones del proyecto.
+
 # Clase 3
 ## ¿Que es GitHub?
 ### perfil
