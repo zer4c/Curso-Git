@@ -48,11 +48,11 @@ Se puede crear la rama de la siguiente manera:
 Una buena practica es poner de nombre la funcion que se esta desarrollando.
 
 Una rama tambien sirve para dividir funciones de trabajo en un desarrollo grupal.
-## conflictos
-
+## Conflictos
+Los conflictos son problemas que aparecen al tratar de fusionar dos ramas, por ejemplo un error de espacios. En Visual Studio Code tiene una herramienta donde podemos decidir que hacer con eso y asi arreglarlo. Tambien se puede hacer desde consola
 
 ## Comandos
-### git branch
+- ### git branch
 sirve para listar las ramas:
 
 `git branch`
@@ -61,50 +61,72 @@ tambien sirve para crear ramas y solo tiene una modificacion:
 
 `git branch Nombrerama`
 
-### git switch
+- ### git switch
 sirve para cambiar de rama, aparte si añadimos -c podemos crear y movernos a la rama: 
 
 `git switch Nombrerama`
 `git switch -c Nombrerama2`
 
-### git checkout
+- ### git checkout
 Sirve tambien para cambiar de rama pero se usa mas el switch desde 2019:
 
 `git checkout`
 
-### git merge
+- ### git merge
 Este comando sirve para fusionar dos ramas, o la rama secundaria al MAIN, pero OJO tenemos una condicion, tenemos que estar "parados" en la rama que queramos que se actualice con la otra.
 
 `git merge RamaX`
 
-### git branch -d o --delete
+- ### git branch -d o --delete
 Nos sirve para eliminar una rama cualquiera.
 
 `git branch -d NombreRama`
 `git branch --delete NombreRama`
 
-### git merge header --no--ff
+- ### git merge header --no--ff
 sirve para verlo como arbolito y te da un mensaje en consola.
 
-### git log --graph --oneline
-muestra un historial de commits de manera gráfica y compacta. Cada commit se representa en una sola línea, mostrando únicamente su identificador único abreviado. El --graph agrega una representación visual de las ramas y fusiones del proyecto.
+- ### git log --graph --oneline
+
+Muestra un historial de commits de manera gráfica y compacta. Cada commit se representa en una sola línea, mostrando únicamente su identificador único abreviado. El --graph agrega una representación visual de las ramas y fusiones del proyecto.
 
 # Clase 3
 ## ¿Que es GitHub?
-### perfil
-### colaboradores
-solo dura un mes
-###
+Es el proveedor de repositorios en la nube para hospedar codigo mas utilizado en la actualidad.
+
+## Los SSH
+Es un protocolo de red que permite a los usuarios acceder de forma segura a una computadora remota o servidor a través de una conexión encriptada. 
+
 ## Comandos
-### git remote add origin
-solo https sin ssh con url
-### git remote -v
-### ls -al -/ssh
-### 
-## los SSh
-### git prune origin main
-### git clone
-### git fetch
-### git branch -a
+- ### git remote add
+sirve para conectar un repositorio local con uno remoto.
+
+`git remote add (ALIAS) (SSH o HTTPS)`
+
+El alias puede ser cualquier nombre para referirnos al repositorio en futuras ocasiones.
+
+- ### git remote add origin
+como el anterior comando solo que usamos un https sin SSH con url.
+
+`git remote add origin https://...`
+- ### git remote -v
+Solo nos da una lista detallada de repositorios remotos enlazados con el repositorio local.
+
+- ### git clone
+sirve para clonar un repositorio remoto a nuestra maquina para trabajarlo
+`git clone codigoSSH`
+
+- ### git fetch
+Sirve para traer los cambios de tu repositorio remoto al local, pero no se aplicaran cambios. 
+
+`git fetch ALIAS`
+- ### git branch -a
 son tokens pero con informacion personal.
 
+- ### git push
+Envia cambios al repositorio remoto, se necesita dos parametros.
+
+- Primero el alias del repositorio remoto.
+- Segundo nombre de la rama.
+
+`git push (ALIAS) (NombreRama)`
