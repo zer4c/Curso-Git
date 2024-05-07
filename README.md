@@ -37,3 +37,53 @@ Es un lenguaje de marcado que usan varias aplicaciones y entre ellas GitHub; su 
 - [Sintaxis Markdown](https://tutorialmarkdown.com/sintaxis)
 
 - [Guia de Markdown de GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+# Clase 2
+## ¿Que es una rama?
+Son una snapshot de la division del estado del codigo, es un nuevo apuntador hacia una de las confirmaciones. Sirven para un desarrollo en equipo mas eficiente.
+
+Se puede crear la rama de la siguiente manera: 
+
+`git branch NombreRama`
+
+Una buena practica es poner de nombre la funcion que se esta desarrollando.
+## Comandos
+### git branch
+sirve para listar las ramas:
+
+`git branch`
+### git switch
+sirve para cambiar de rama: 
+
+`git swtich Nombrerama`
+
+### git checkout
+Sirve para cambiar de rama:
+crear -b homepage
+`git checkout`
+### git merge
+### git branch -d o --delete
+### git merge header --no--ff
+sirve para verlo como arbolito y te da un mensaje
+### git log --graph --oneline
+## fusionar ramas
+## conflictos
+investigar si tienen los mismos ID por la creacion de ramas
+# Clase 3
+## ¿Que es GitHub?
+### perfil
+### colaboradores
+solo dura un mes
+###
+## Comandos
+### git remote add origin
+solo https sin ssh con url
+### git remote -v
+### ls -al -/ssh
+### 
+## los SSh
+### git prune origin main
+### git clone
+### git fetch
+### git branch -a
+son tokens pero con informacion personal.
+
