@@ -113,7 +113,8 @@ como el anterior comando solo que usamos un https sin SSH con url.
 Solo nos da una lista detallada de repositorios remotos enlazados con el repositorio local.
 
 - ### git clone
-sirve para clonar un repositorio remoto a nuestra maquina para trabajarlo
+sirve para clonar un repositorio remoto a nuestra maquina para trabajarlo.
+
 `git clone codigoSSH`
 
 - ### git fetch
