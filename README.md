@@ -81,6 +81,7 @@ Este comando sirve para fusionar dos ramas, o la rama secundaria al MAIN, pero O
 Nos sirve para eliminar una rama cualquiera.
 
 `git branch -d NombreRama`
+
 `git branch --delete NombreRama`
 
 - ### git merge header --no--ff
@@ -131,3 +132,14 @@ Envia cambios al repositorio remoto, se necesita dos parametros.
 - Segundo nombre de la rama.
 
 `git push (ALIAS) (NombreRama)`
+
+# Clase 5
+## ¿Que es git flow?
+### 1. Main
+### 2. Develop
+### 3. Feature
+### 4. Release
+### 5. Hotfix
+## ¿Que es GitHub flow?
+## GitHub actions
+## Metodologia Ship/Show/Ask
