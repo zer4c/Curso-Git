@@ -132,6 +132,24 @@ Envia cambios al repositorio remoto, se necesita dos parametros.
 - Segundo nombre de la rama.
 
 `git push (ALIAS) (NombreRama)`
+# Clase 4
+## Comandos
+### git push
+Sirve para cargar cambios de una rama de un repositorio local a uno remoto.
+
+`git push ALIAS NombreRama`
+
+para eliminar las ramas de forma remota tambien se puede hacer.
+
+`git push -d ALIAS NombreRama`
+
+Hay un peligro de forzar un push, con el comando -f se recomiendo no usar.
+
+### git pull
+
+Sirve para descargar cambios de una rama a un repositorio local de un remoto.
+
+`git push ALIAS NombreRama`
 
 # Clase 5
 ## ¿Que es git flow?
