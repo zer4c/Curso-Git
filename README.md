@@ -167,10 +167,10 @@ Sirve para descargar cambios de una rama a un repositorio local de un remoto.
 
 Aqui se trata de que tenemos que hacer commits mas a menudo con pequeños cambios pero no innecesarios y que hay algunas reglitas.
 
--Usar Add, Change, Fix, Remove.
--No usar punto final.
--Considerar usar utilidades al hacer un commit.
--Usar prefijos para hacerlos mas semanticos.
+- Usar Add, Change, Fix, Remove.
+- No usar punto final.
+- Considerar usar utilidades al hacer un commit.
+- Usar prefijos para hacerlos mas semanticos.
 
 > tipo-de-commit descripcion.
 
@@ -190,10 +190,10 @@ Aqui se trata de que tenemos que hacer commits mas a menudo con pequeños cambio
  
 Se recomienda usar un nombre para la rama.
 
--bug
--feature
--experiment
--hotfix
+- bug
+- feature
+- experiment
+- hotfix
 
 # Clase 7
 ## Deshacer cambios
@@ -212,3 +212,21 @@ Es no-destructivo revierte los cambios de un commit, y crea uno nuevo con los ca
 Nos permite recueprar codigo especifico de commits.
 
 `git checkout Idcommit`
+
+# Clase 8
+## Hooks
+Un hook nos da la posibilidad de ejecutar una accion tras un evento determinado de git.
+### algunos comandos del lado del cliente
+- pre-commit
+- prepare-commit-messagge
+- commit-message
+- post-commit
+- pre-push
+- post-checkout y post-merge
+### Algunos comandos del lado del servidor
+Todos sirven en instancias del comando git push.
+
+- pre-recieve
+- update
+- post-receive
+
