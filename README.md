@@ -153,14 +153,37 @@ Sirve para descargar cambios de una rama a un repositorio local de un remoto.
 
 # Clase 5
 ## ¿Que es git flow?
+Es un flujo de trabajo en equipo que consiste en tener la main, develops, features, hotfixes y releases.
+
 ### 1. Main
+La rama principal la que el publico general usa.
+
+
 ### 2. Develop
+La 2da rama principal de donde salen las features, y tambien donde se unen.
+
 ### 3. Feature
+Son ramas especificas para la creacion de nuevas funcionalidades.
+
 ### 4. Release
+Esta es una rama que sirve para unir la develops y preparala para unir con el main
+
 ### 5. Hotfix
+Son ramas que sirven para arreglar errores importantes y rapidos, se pueden saltar a la rama develop y combinarlas directamente en la main, pero se tiene que combinar con la develop.
+
 ## ¿Que es GitHub flow?
+Es otro flujo de trabajo que sirve segun las Pull Requests.
+
 ## GitHub actions
+
 ## Metodologia Ship/Show/Ask
+Combina la idea de hacer Pull Request pero se combina directamente en ramas
+### Ship
+Aqui se unen cambios directamente a una Rama llamada Ship.
+### Show
+Aqui se unen cambios directamente pero con una revision a una rama show.
+### Ask
+Aqui se une los cambios despues de una revision a una rama Ask.
 
 # Clase 6 
 ## Buenas practicas
