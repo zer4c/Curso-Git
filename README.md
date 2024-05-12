@@ -161,3 +161,11 @@ Sirve para descargar cambios de una rama a un repositorio local de un remoto.
 ## ¿Que es GitHub flow?
 ## GitHub actions
 ## Metodologia Ship/Show/Ask
+
+# Clase 6 
+## Buenas practicas
+
+Aqui se trata de que tenemos que hacer commits mas a menudo con pequeños cambios pero no innecesarios y que hay algunas reglitas.
+
+-Usar Add, Change, Fix, Remove.
+-No usar punto final
