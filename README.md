@@ -230,3 +230,27 @@ Todos sirven en instancias del comando git push.
 - update
 - post-receive
 
+## Alias
+Con esto se puede abreviar comandos por ejemplo 
+`git status` en alias podria ser
+> git st
+
+Para crear un alias:
+
+`git config --global alias.[NombreAlias] "[comando]"`
+
+Con el ejemplo anterior:
+
+`git config --global alias.st "status"`
+
+## Algunos comandos extras
+### git stash
+Sirve para guardar temporalmente tus cambios realizados pero no los hace commit.
+
+### git cherry-pick
+Sirve para traer cambios de ramas pero SOLO un commit.
+
+`git cherry-pick [SHA]`
+
+### git bisect 
+Sirve para saber cual commit es el defectuoso.
