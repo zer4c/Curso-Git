@@ -168,4 +168,29 @@ Sirve para descargar cambios de una rama a un repositorio local de un remoto.
 Aqui se trata de que tenemos que hacer commits mas a menudo con pequeños cambios pero no innecesarios y que hay algunas reglitas.
 
 -Usar Add, Change, Fix, Remove.
--No usar punto final
+-No usar punto final.
+-Considerar usar utilidades al hacer un commit.
+-Usar prefijos para hacerlos mas semanticos.
+
+> tipo-de-commit descripcion.
+
+### Prefijos para los commmits
+
+- feat
+- fix
+- perf
+- build
+- ci
+- docs
+- refactor
+- style
+- test
+
+### Escribir un buen nombre de rama
+ 
+Se recomienda usar un nombre para la rama.
+
+-bug
+-feature
+-experiment
+-hotfix
