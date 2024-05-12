@@ -194,3 +194,21 @@ Se recomienda usar un nombre para la rama.
 -feature
 -experiment
 -hotfix
+
+# Clase 7
+## Deshacer cambios
+## Comandos no-destructivos y destructivos
+### git reset
+Es Destructivo tiene dos opciones el soft y el hard, hace que elimine todos los commits hechos y vaya a un commit señalado.
+
+`git reset --opcion IDcommit`
+
+### git revert
+Es no-destructivo revierte los cambios de un commit, y crea uno nuevo con los cambios introducidos.
+
+`git revert IDcommit`
+
+### git checkout
+Nos permite recueprar codigo especifico de commits.
+
+`git checkout Idcommit`
